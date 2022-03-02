@@ -1,0 +1,34 @@
+{
+  "name": "react-node-mongodb-project",
+  "version": "1.0.0",
+  "description": "Social network",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duong1906ltv/react-node-mongodb-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duong1906ltv/react-node-mongodb-project/issues"
+  },
+  "homepage": "https://github.com/duong1906ltv/react-node-mongodb-project#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.7",
+    "express": "^4.17.3",
+    "express-validator": "^6.14.0",
+    "gravatar": "^1.8.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.3",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
