@@ -232,7 +232,7 @@ router.delete('/experience/:exp_id', auth, async(req, res) => {
         
         profile.experience.splice(removeIndex,1)
 
-        await Profile.save()
+        await profile.save()
 
         res.json(profile)
 
