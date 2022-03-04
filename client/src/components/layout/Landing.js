@@ -1,9 +1,9 @@
 import React from 'react'
 
-export const Landing = () => {
+function Landing() {
   return (
     <section className="landing">
-        <div className="dark-overlay">
+      <div className="dark-overlay">
         <div className="landing-inner">
             <h1 className="x-large">Developer Connector</h1>
             <p className="lead">
@@ -15,8 +15,9 @@ export const Landing = () => {
             <a href="login.html" className="btn btn-light">Login</a>
             </div>
         </div>
-        </div>
+      </div>
     </section>
   )
 }
+
 export default Landing
